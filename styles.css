@@ -1,0 +1,22 @@
+body {
+    background-color:  #ffffff;
+}
+.input1{
+    margin-top: 2%;
+    text-align: center;
+}
+.input2{
+    margin-top: 2%;
+    text-align: center;
+}
+.button{
+    margin-top: 1%;
+    text-align: center;
+}
+.lightImg{
+    text-align: center;
+}
+.volumeSlider{
+    margin-top: 2%;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>MorseCode</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- style -->
+     <style>
+     </style>
+
+     <!-- contents -->
+    <div class="input1">
+        <textarea name="input" id="input" style="resize: none;width: 800px;height: 240px;font-size: 24px;"></textarea>
+</div>
+
+    <div class="input2">
+    <textarea disabled name="output" id="output" style="resize: none; width: 800px;height: 240px;font-size: 24px;"></textarea>
+</div>
+
+    <div class="button">
+    <button id="button1" onclick="onclick1()" style="width: 80px; height: 20;">解码</button>
+    <button id="button2" onclick="onclick2(text1)" style="width: 80px; height: 20;">播放</button>
+</div>
+<div class="button">
+    <input type="checkbox" id="check" onchange="isSetted(event)" style="text-align: center;">
+    <label for="check" style="user-select: none;">kirakira(>ω･* )ﾉ</label>
+</div>
+    <div class="volumeSlider"><input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1">
+    </div>
+    <div class="lightImg">
+    <img id="img" src="off.png" alt="Loading">
+</div>
+    <script src="scripts.js">
+       
+    </script>
+</body>
+</html>
